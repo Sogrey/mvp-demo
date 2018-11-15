@@ -1,11 +1,11 @@
-package top.sogrey.demo.mvp;
+package top.sogrey.mvp.base;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import top.sogrey.demo.mvp.presenter.BasePeresenter;
-import top.sogrey.demo.mvp.view.BaseView;
+import top.sogrey.mvp.base.p.BasePeresenter;
+import top.sogrey.mvp.base.v.BaseView;
 
 /**
  * 描述：

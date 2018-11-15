@@ -1,8 +1,9 @@
-package top.sogrey.demo.mvp.presenter;
+package top.sogrey.mvp.base.p;
 
 import java.lang.ref.WeakReference;
 
-import top.sogrey.demo.mvp.view.BaseView;
+import top.sogrey.mvp.base.v.BaseView;
+
 
 /**
  * 描述：

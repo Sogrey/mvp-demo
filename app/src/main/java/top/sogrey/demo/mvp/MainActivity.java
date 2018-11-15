@@ -8,9 +8,10 @@ import java.util.List;
 
 import top.sogrey.demo.mvp.adapter.ListAdapter;
 import top.sogrey.demo.mvp.beans.ItemData;
-import top.sogrey.demo.mvp.presenter.BasePeresenter;
 import top.sogrey.demo.mvp.presenter.IPresenter;
 import top.sogrey.demo.mvp.view.IView;
+import top.sogrey.mvp.base.BaseActivity;
+import top.sogrey.mvp.base.p.BasePeresenter;
 
 public class MainActivity extends BaseActivity<IView, BasePeresenter<IView>> implements IView {
     ListView mListView;

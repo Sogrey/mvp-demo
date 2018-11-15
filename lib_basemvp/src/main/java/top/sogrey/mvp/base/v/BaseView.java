@@ -1,4 +1,4 @@
-package top.sogrey.demo.mvp.view;
+package top.sogrey.mvp.base.v;
 
 /**
  * 描述：

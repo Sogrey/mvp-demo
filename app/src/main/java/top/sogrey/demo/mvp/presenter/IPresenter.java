@@ -7,6 +7,7 @@ import top.sogrey.demo.mvp.beans.ItemData;
 import top.sogrey.demo.mvp.model.GoodsModel;
 import top.sogrey.demo.mvp.model.IModel;
 import top.sogrey.demo.mvp.view.IView;
+import top.sogrey.mvp.base.p.BasePeresenter;
 
 /**
  * 描述：表示层
@@ -24,7 +25,7 @@ public class IPresenter extends BasePeresenter {
     public void fetch() {
         if (mViewRef.get() != null) ((IView) (mViewRef.get())).showLoading();
         if (iModel != null) {
-            iModel.loadData(new IModel.OnDataLoadedListener() {
+            iModel.loadData(new IModel.OnDataLoadedListener<ItemData>() {
                 @Override
                 public void onComplete(List<ItemData> datas) {
                     if (mViewRef.get() != null) {
